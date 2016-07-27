@@ -20,7 +20,8 @@ public class GameGridCell extends Canvas {
 
     public void active(){
         active = true;
-        this.setColor(activeColor);
+
+        this.setColor(new Color((int)(Math.random() * 0x1000000)));
     }
 
     public void deactive()
