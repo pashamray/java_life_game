@@ -12,7 +12,7 @@ import java.awt.event.ActionListener;
  */
 public class GameLife extends JFrame implements IGame {
 
-    private final int TIMER_DELAY = 500;
+    private final int TIMER_DELAY = 250;
 
     private final Timer timer;
     private final GameGrid gameGrid;
@@ -23,7 +23,7 @@ public class GameLife extends JFrame implements IGame {
         this.setSize(width, height);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        gameGrid = new GameGrid(20, 20);
+        gameGrid = new GameGrid(30, 30);
         add(gameGrid);
 
         gameGrid.start();
@@ -34,7 +34,7 @@ public class GameLife extends JFrame implements IGame {
 
     @Override
     public void tick() {
-        System.out.println("tick");
+        gameGrid.step();
     }
 }
 
