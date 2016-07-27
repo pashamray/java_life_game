@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c58168a3-a602-47f6-8203-6a5959108aee" name="Default" comment="" />
+    <list default="true" id="c58168a3-a602-47f6-8203-6a5959108aee" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="java_life_game.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -85,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameGridCell.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameGridCell.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/life/grid/cell/GameGridCell.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
@@ -94,6 +96,16 @@
                 <element signature="e#636#637#0" expanded="true" />
                 <element signature="e#665#666#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="92" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/com/life/grid/GameGrid.java" />
         <option value="$PROJECT_DIR$/src/com/GameLife.java" />
         <option value="$PROJECT_DIR$/src/com/life/grid/cell/GameGridCell.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -810,6 +823,14 @@
             <element signature="e#636#637#0" expanded="true" />
             <element signature="e#665#666#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="92" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
+          <folding />
         </state>
       </provider>
     </entry>
